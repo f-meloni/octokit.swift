@@ -3,7 +3,7 @@ import RequestKit
 
 // MARK: model
 
-open class User: NSObject, Codable {
+open class User: Codable {
     open internal(set) var id: Int = -1
     open var login: String?
     open var avatarURL: String?

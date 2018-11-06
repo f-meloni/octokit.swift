@@ -3,7 +3,7 @@ import RequestKit
 
 // MARK: model
 
-open class Repository: NSObject, Codable {
+open class Repository: Codable {
     open private(set) var id: Int = -1
     open private(set) var owner = User()
     open var name: String?

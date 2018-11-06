@@ -1,6 +1,6 @@
 import Foundation
 
-open class Milestone: NSObject, Codable {
+open class Milestone: Codable {
     open var url: URL?
     open var htmlURL: URL?
     open var labelsURL: URL?

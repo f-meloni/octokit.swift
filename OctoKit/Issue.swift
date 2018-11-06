@@ -9,7 +9,7 @@ public enum Openness: String, Codable {
     case All = "all"
 }
 
-open class Issue: NSObject, Codable {
+open class Issue: Codable {
     open private(set) var id: Int = -1
     open var url: URL?
     open var repositoryURL: URL?
