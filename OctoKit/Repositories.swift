@@ -4,19 +4,19 @@ import RequestKit
 // MARK: model
 
 open class Repository: NSObject, Codable {
-    @objc open private(set) var id: Int = -1
-    @objc open private(set) var owner = User()
-    @objc open var name: String?
-    @objc open var fullName: String?
-    @objc open private(set) var isPrivate: Bool = false
-    @objc open var repositoryDescription: String?
-    @objc open private(set) var isFork: Bool = false
-    @objc open var gitURL: String?
-    @objc open var sshURL: String?
-    @objc open var cloneURL: String?
-    @objc open var htmlURL: String?
-    @objc open private(set) var size: Int = -1
-    @objc open var lastPush: Date?
+    open private(set) var id: Int = -1
+    open private(set) var owner = User()
+    open var name: String?
+    open var fullName: String?
+    open private(set) var isPrivate: Bool = false
+    open var repositoryDescription: String?
+    open private(set) var isFork: Bool = false
+    open var gitURL: String?
+    open var sshURL: String?
+    open var cloneURL: String?
+    open var htmlURL: String?
+    open private(set) var size: Int = -1
+    open var lastPush: Date?
 
     enum CodingKeys: String, CodingKey {
         case id
