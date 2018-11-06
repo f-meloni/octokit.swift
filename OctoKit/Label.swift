@@ -1,6 +1,6 @@
 import ObjectiveC
 
-#if os(OSX)
+#if os(OSX) || os(Linux)
     import Cocoa
     typealias Color = NSColor
 #elseif os(iOS) || os(tvOS) || os(watchOS)
