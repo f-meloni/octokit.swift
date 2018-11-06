@@ -1,9 +1,10 @@
 import Foundation
 import RequestKit
+import ObjectiveC
 
 // MARK: model
 
-@objc open class User: NSObject, Codable {
+open class User: NSObject, Codable {
     @objc open internal(set) var id: Int = -1
     @objc open var login: String?
     @objc open var avatarURL: String?

@@ -1,7 +1,7 @@
 import Foundation
 import RequestKit
 
-@objc open class PullRequest: NSObject, Codable {
+open class PullRequest: NSObject, Codable {
 
     @objc private(set) open var id: Int = -1
     @objc open var url: URL?
