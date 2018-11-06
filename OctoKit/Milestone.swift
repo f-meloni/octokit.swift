@@ -1,4 +1,5 @@
 import Foundation
+import ObjectiveC
 
 @objc open class Milestone: NSObject, Codable {
     @objc open var url: URL?

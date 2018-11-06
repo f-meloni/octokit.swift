@@ -1,5 +1,6 @@
 import Foundation
 import RequestKit
+import ObjectiveC
 
 // MARK: model
 

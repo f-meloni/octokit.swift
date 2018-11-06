@@ -1,3 +1,5 @@
+import ObjectiveC
+
 #if os(OSX)
     import Cocoa
     typealias Color = NSColor
