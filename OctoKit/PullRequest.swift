@@ -1,6 +1,5 @@
 import Foundation
 import RequestKit
-import ObjectiveC
 
 @objc open class PullRequest: NSObject, Codable {
 

@@ -1,4 +1,4 @@
-import ObjectiveC
+import Foundation
 
 #if os(OSX) || os(Linux)
     import Cocoa
